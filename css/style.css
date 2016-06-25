@@ -1,0 +1,22 @@
+.introduction {
+	background-image:url('../images/portfolio-background.jpg');
+	background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55rem;
+}
+
+.introduction > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.links {
+	height: 120px;
+}
+
+div {
+	border: 1px solid chocolate;
+}
