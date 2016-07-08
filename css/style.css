@@ -1,22 +1,80 @@
+* {
+	margin:0;
+	padding:0;
+}
+
 .introduction {
 	background-image:url('../images/portfolio-background.jpg');
 	background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     height: 55rem;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
-.introduction > .content {
-	width: 970px;
-	height: 70px;
-	margin: 0 auto;
+/*.introduction > .content {
 	padding: 0px 15px;
+}*/
+
+h1 {
+	margin-top: 0;
+	text-align: center;
 }
 
-.links {
-	height: 120px;
+h2 {
+	margin-top: 0;
+	text-align: center;
+}
+	
+
+.navigation > .content {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: rgba(96,96,96,.5);
+	/*opacity: 0.7;*/
+	/*margin: 10px 10px;*/
+	/*background: #666;*/
+   	/*padding: 10px;*/
+   	/*width: 700px;*/
+   	/*border-radius: 20px;*/
+	
 }
 
-div {
+.navigation .links {
+	/*font-size: 1.04rem;*/
+	/*list-style-type: none;*/
+    /*margin: 0;
+    padding: 0;*/
+    /*width: 60px;*/
+    text-align: center;
+    padding: 21px;
+}
+
+.navigation .links li {
+	display: inline-block;
+	font-size: 16px;
+	letter-spacing: normal;
+	padding: 0px 150px;
+	color: white;
+	/*width: 60px;*/
+	text-align: center;
+}
+
+.navigation .links ul {
+	padding: 30px;
+}
+
+}
+
+@media (max-width: 500px) {
+
+	.navigation .links li {
+		display: block;
+	}
+}
+
+/*div {
 	border: 1px solid chocolate;
-}
+}*/
